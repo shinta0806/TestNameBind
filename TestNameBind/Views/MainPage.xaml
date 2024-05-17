@@ -11,6 +11,7 @@
 	<StackPanel >
 
 		<TextBlock Name="{x:Bind v:MainPage.CONST_NAME_A}" Text="A" />
+		<TextBlock Name="{x:Bind v:MainPage.CONST_NAME_B}" Text="B" />
 
 	</StackPanel>
 
