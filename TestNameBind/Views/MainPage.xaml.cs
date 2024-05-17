@@ -1,4 +1,4 @@
-﻿using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls;
 
 using TestNameBind.ViewModels;
 
@@ -16,4 +16,7 @@ public sealed partial class MainPage : Page
         ViewModel = App.GetService<MainViewModel>();
         InitializeComponent();
     }
+
+    public const String CONST_NAME_A = "NameA";
+    public const String CONST_NAME_B = "NameB";
 }
